@@ -17,10 +17,10 @@
 explore and visualize feature space -ouputs of neurons of the one left to last layer- using **t-SNE** and **k-nearest neighbors** algortihms.
 
 <h3 align="center">
-  <img src="images/knn.png" width="800">
+  <img src="Images/knn.png" width="800">
 </h3>
 
 # Colorized images (Different approaches)
 <h3 align="center">
-  <img src="images/t-SNE.png" width="800">
+  <img src="Images/t-SNE.png" width="800">
 </h3>
