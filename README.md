@@ -16,11 +16,12 @@
 ## Exploring Feature Space
 explore and visualize feature space -ouputs of neurons of the one left to last layer- using **t-SNE** and **k-nearest neighbors** algortihms.
 
+### k-nearest neighbors
 <h3 align="center">
   <img src="Images/knn.png" width="500">
 </h3>
 
-# Colorized images (Different approaches)
+### t-SNE
 <h3 align="center">
   <img src="Images/t-SNE.png" width="500">
 </h3>
