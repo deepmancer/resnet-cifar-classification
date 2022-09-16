@@ -18,7 +18,7 @@ explore and visualize feature space -ouputs of neurons of the one left to last l
 
 ### feature space definition
 <h3 align="center">
-  <img src="Images/feature_space.png" width="500">
+  <img src="Images/feature_space.png" width="800">
 </h3>
 
 
