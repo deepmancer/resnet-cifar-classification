@@ -54,7 +54,7 @@ The ResNet-18 model, after training on the CIFAR-10 dataset, achieves the follow
 
 Understanding the feature space learned by a deep network can provide insights into how the model discriminates between different classes. In this project, we explore the outputs of the penultimate layer (one layer before the final classification layer) using the following methods:
 - t-SNE
-- kNN
+- k-NN
 
 ### Feature Space Definition
 
