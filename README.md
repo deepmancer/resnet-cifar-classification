@@ -1,4 +1,4 @@
-# 🖼️ Training a ResNet-18 for Image Classification on CIFAR-10
+# 🖼️ Training ResNet-18 for CIFAR-10 Image Classification
 
 <p align="center">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch">
@@ -8,7 +8,7 @@
 
 ### About
 
-This project implements the ResNet-18 architecture from scratch using PyTorch and trains it on the CIFAR-10 dataset for image classification.
+This project implements ResNet-18 from scratch in PyTorch and trains it on the CIFAR-10 dataset to achieve high accuracy in image classification.
 
 ---
 
@@ -53,6 +53,17 @@ The ResNet-18 model, after training on the CIFAR-10 dataset, achieves the follow
 ## 🔍 Exploring Feature Space
 
 Understanding the feature space learned by a deep network can provide insights into how the model discriminates between different classes. In this project, we explore the outputs of the penultimate layer (one layer before the final classification layer) using the following methods:
+- t-SNE
+- kNN
+
+### Feature Space Definition
+
+The feature space refers to the high-dimensional space where the outputs of the neurons in the layer just before the final classification layer reside. Visualizing this space provides valuable insights into the model's internal representations.
+
+<p align="center">
+  <img src="Images/feature_space.png" width="800" alt="Feature Space Visualization">
+</p>
+
 
 ### 🌀 t-SNE Visualization
 
@@ -68,12 +79,4 @@ k-NN is applied to the feature space to explore the clustering of different clas
 
 <p align="center">
   <img src="Images/knn.png" width="500" alt="k-NN Visualization">
-</p>
-
-### Feature Space Definition
-
-The feature space refers to the high-dimensional space where the outputs of the neurons in the layer just before the final classification layer reside. Visualizing this space provides valuable insights into the model's internal representations.
-
-<p align="center">
-  <img src="Images/feature_space.png" width="800" alt="Feature Space Visualization">
 </p>
